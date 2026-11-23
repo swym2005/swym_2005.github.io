@@ -1,0 +1,12 @@
+{
+  "name": "swayam-dalal-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Swayam Dalal's data analyst portfolio, project case studies, and reports.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build-projects.mjs",
+    "check": "node --check dist/app.js && node --check dist/common.js && node scripts/check.mjs"
+  }
+}
